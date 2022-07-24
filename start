@@ -1,0 +1,23 @@
+# Welche Uhr ist die beste für dich
+
+
+Steelrosegold = "srg"
+usage = str(input("Welche Sportart? Fliegen,Tauchen oder Klassisch? "))
+fliegen = "fliegen"
+Tauchen = "tauchen"
+Klassisch = "klassisch"
+
+gender = str(input("Welches geschlecht hast du? Male or Female? "))
+Male = "Male"
+Female = "Female"
+
+material = str(input("Willst du steel, steel-gold, gold, platin, Rose-gold oder steel-rose-gold? "))
+steel = 's'
+steelgold = 'sg'
+gold = "g"
+platin = "p"
+rosegold = "rg"
+if usage == Klassisch and gender == Female and material == steel:
+    print("https://www.rolex.de/de/watches/lady-datejust/m279160-0006.html")
+else:
+    print("other")
